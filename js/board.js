@@ -5,25 +5,26 @@ export const player = {
     y: 3
 };
 
-export function createBoard(path = []){
+export function createBoard(preview = []) {
 
     const board = document.getElementById("board");
+
     board.innerHTML = "";
-    board.style.gridTemplateColumns = `repeat(${BOARD_SIZE},60px)`;
+    board.style.gridTemplateColumns = `repeat(${BOARD_SIZE}, 60px)`;
 
-    for(let y=0;y<BOARD_SIZE;y++){
+    for (let y = 0; y < BOARD_SIZE; y++) {
 
-        for(let x=0;x<BOARD_SIZE;x++){
+        for (let x = 0; x < BOARD_SIZE; x++) {
 
             const tile = document.createElement("div");
             tile.className = "tile";
 
-            if(player.x===x && player.y===y){
+            // 현재 플레이어
+            if (player.x === x && player.y === y) {
                 tile.classList.add("player");
             }
 
-            const ghostIndex = path.findIndex(p=>p.x===x && p.y===y);
-
+            // 이동 미리보기
             const ghost = preview.find(p => p.x === x && p.y === y);
 
             if (ghost) {
