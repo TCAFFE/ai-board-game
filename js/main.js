@@ -1,5 +1,5 @@
 import { createBoard } from "./board.js";
-import { addAction, resetQueue } from "./queue.js";
+import { addAction, resetQueue, renderQueue } from "./queue.js";
 
 const characters = [
 "G.PT","P.P.L-XitY","Q-W4yne","GeMinI","G.roK","Li-tun",
@@ -43,10 +43,12 @@ function openCharacterSelect() {
 }
 
 function startGame() {
+
     characterSelect.classList.add("hidden");
     game.classList.remove("hidden");
 
-    createBoard();
+    renderQueue();
+
 }
 
 // ===== 임시 입력 테스트 =====

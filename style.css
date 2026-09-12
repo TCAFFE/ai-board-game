@@ -84,3 +84,17 @@ button{
     min-width:220px;
 
 }
+
+.player{
+    background:#00bfff;
+}
+
+.ghost{
+    background:#146ca3;
+    border:2px dashed #66d9ff;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
