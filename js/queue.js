@@ -53,10 +53,11 @@ function calculateGhostPath(){
 
 }
 
-export function renderQueue(){
+export function renderQueue(updateBoard = true){
 
-    const list=document.getElementById("queue");
-    list.innerHTML="";
+    const list = document.getElementById("queue");
+
+    list.innerHTML = "";
 
     actionQueue.forEach(action=>{
 
@@ -67,7 +68,5 @@ export function renderQueue(){
         list.appendChild(li);
 
     });
-
-    createBoard(calculateGhostPath());
 
 }

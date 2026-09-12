@@ -2,6 +2,7 @@ import { createBoard } from "./board.js";
 import { addAction, resetQueue, renderQueue, actionQueue } from "./queue.js";
 import { loadCharacter } from "./gameState.js";
 import { buildMovePreview } from "./preview.js";
+import { render } from "./renderer.js";
 
 const hostBtn = document.getElementById("hostBtn");
 const joinBtn = document.getElementById("joinBtn");
@@ -68,8 +69,7 @@ function startGame() {
     characterSelect.classList.add("hidden");
     game.classList.remove("hidden");
 
-    renderQueue();
-    createBoard(buildMovePreview(actionQueue));
+    render();
 
 }
 
@@ -110,7 +110,7 @@ document.addEventListener("keydown", e => {
 
     }
 
-    createBoard(buildMovePreview(actionQueue));
+    render();
 
 });
 
@@ -119,7 +119,7 @@ document.addEventListener("keydown", e => {
 resetBtn.onclick = () => {
 
     resetQueue();
-    createBoard([]);
+    render();
 
 };
 
