@@ -9,24 +9,25 @@
 </head>
 <body>
 
-<div id="app">
+<div id="game">
 
-    <h1>AI Board Game</h1>
+    <div id="board"></div>
 
-    <button id="hostBtn">방 만들기</button>
-    <button id="joinBtn">방 참가</button>
+    <div id="sidebar">
 
-    <div id="characterSelect" class="hidden">
+        <h3>행동 큐</h3>
 
-        <h2>캐릭터 선택</h2>
+        <ol id="queue"></ol>
 
-        <div id="characterGrid"></div>
+        <button id="resetActions">행동 초기화</button>
+
+        <button id="endTurn">턴 종료</button>
 
     </div>
 
 </div>
 
-<script src="script.js"></script>
+<script type="module" src="js/main.js"></script>
 
 </body>
 </html>
