@@ -24,9 +24,12 @@ export function createBoard(path = []){
 
             const ghostIndex = path.findIndex(p=>p.x===x && p.y===y);
 
-            if(ghostIndex!==-1){
+            const ghost = preview.find(p => p.x === x && p.y === y);
+
+            if (ghost) {
                 tile.classList.add("ghost");
-                tile.textContent = ghostIndex+1;
+                tile.style.setProperty("--ghost-alpha", ghost.alpha);
+                tile.textContent = ghost.step;
             }
 
             board.appendChild(tile);
