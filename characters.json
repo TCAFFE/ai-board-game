@@ -1,0 +1,171 @@
+[
+  {
+    "id":"gpt",
+    "name":"G.PT",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "A.M sky timeline",
+      "Greater, Preciser, Tougher",
+      "PanGPTa",
+      "Signal Chain",
+      "United GPTingdom"
+    ]
+  },
+  {
+    "id":"pplxity",
+    "name":"P.P.L-XitY",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "Cycle"
+    ]
+  },
+  {
+    "id":"qwayne",
+    "name":"Q-W4yne",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "Deep",
+      "Passport 1970-2077",
+      "태무산"
+    ]
+  },
+  {
+    "id":"gemini",
+    "name":"GeMinI",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "Dioscuri",
+      "Infinite Orbit",
+      "투옥"
+    ]
+  },
+  {
+    "id":"grok",
+    "name":"G.roK",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "For all seasons",
+      "GAO",
+      "Ghost in the Glass",
+      "Timeline Fracture",
+      "Water"
+    ]
+  },
+  {
+    "id":"litun",
+    "name":"Li-tun",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "Fly High",
+      "New Dawn",
+      "Sea"
+    ]
+  },
+  {
+    "id":"lilclaude",
+    "name":"lil cl4ude",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "Me When",
+      "Operation Mom eop-si",
+      "OPUS 404",
+      "You When"
+    ]
+  },
+  {
+    "id":"giganticduo",
+    "name":"Gigantic Duo",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "Isolation",
+      "Ocean"
+    ]
+  },
+  {
+    "id":"deepsick",
+    "name":"Deep$ick",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "대교",
+      "인체"
+    ]
+  },
+  {
+    "id":"sakana",
+    "name":"サK4-na",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "TOKYO UNDERWORLD"
+    ]
+  },
+  {
+    "id":"copilot",
+    "name":"Co.piLot",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "Suno 스타일 랩 가사"
+    ]
+  },
+  {
+    "id":"quadcore",
+    "name":"Quad Core",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[
+      "Nowhere"
+    ]
+  },
+  {
+    "id":"clov4",
+    "name":"C.lov4",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[]
+  },
+  {
+    "id":"coh3r",
+    "name":"cO-h3r€",
+    "baseAP":5,
+    "moveCost":1,
+    "maxHP":100,
+    "passive":"TBD",
+    "exclusiveSkills":[]
+  }
+]

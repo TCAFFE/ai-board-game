@@ -1,0 +1,14 @@
+{
+  "Signal Chain": {
+    "cost": 2,
+    "preview": "line"
+  },
+  "Deep": {
+    "cost": 1,
+    "preview": "self"
+  },
+  "Water": {
+    "cost": 2,
+    "preview": "area"
+  }
+}

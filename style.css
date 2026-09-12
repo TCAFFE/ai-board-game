@@ -90,11 +90,21 @@ button{
 }
 
 .ghost{
-    background:#146ca3;
+
+    position:relative;
+
+    background:rgba(0,191,255,var(--ghost-alpha));
+
     border:2px dashed #66d9ff;
+
     color:white;
+
     display:flex;
+
     justify-content:center;
+
     align-items:center;
+
     font-weight:bold;
+
 }
