@@ -31,7 +31,7 @@ export function buildMovePreview(actions){
             x,
             y,
             step,
-            alpha:0.25+step*0.05
+            alpha:Math.min(0.7,0.2+step*0.08)
         });
 
         step++;

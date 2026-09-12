@@ -63,48 +63,82 @@ button{
 
 .tile{
 
-    width:60px;
+    position:relative;
 
+    width:60px;
     height:60px;
 
-    background:#2a2a2a;
+}
+
+.tile>div{
+
+    position:absolute;
+
+    inset:0;
+
+}
+
+.layer-ground{
+
+    background:#252525;
 
     border:1px solid #444;
 
 }
 
-.player{
-
-    background:#00bfff;
-
-}
-
-#sidebar{
-
-    min-width:220px;
-
-}
-
-.player{
-    background:#00bfff;
-}
-
-.ghost{
-
-    position:relative;
-
-    background:rgba(0,191,255,var(--ghost-alpha));
-
-    border:2px dashed #66d9ff;
-
-    color:white;
+.layer-move{
 
     display:flex;
 
     justify-content:center;
-
     align-items:center;
 
+    background:#00bfff;
+
+    opacity:0;
+
+    color:white;
+
     font-weight:bold;
+
+    border:2px dashed #6ed6ff;
+
+}
+
+.layer-skill{
+
+    background:#ff4444;
+
+    opacity:0;
+
+}
+
+.layer-player{
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+}
+
+.layer-player.player::after{
+
+    content:"";
+
+    width:26px;
+    height:26px;
+
+    border-radius:50%;
+
+    background:#00bfff;
+
+    box-shadow:0 0 12px #00bfff;
+
+}
+
+.layer-effect{
+
+    pointer-events:none;
 
 }
